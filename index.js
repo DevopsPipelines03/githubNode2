@@ -9,7 +9,7 @@ const port = 8080
 
 
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "https://webapp4s.azurewebsites.net/");
+  res.setHeader("Access-Control-Allow-Origin", "https://reactappskriyators.azurewebsites.net/");
   res.setHeader(
     "Access-Control-Allow-Methods",
     "OPTIONS, GET, POST, PUT, PATCH, DELETE"
@@ -20,7 +20,7 @@ app.use((req, res, next) => {
 
 
 const corsOptions ={
-    origin:'https://webapp4s.azurewebsites.net/', 
+    origin:'https://reactappskriyators.azurewebsites.net/', 
     credentials:true,  
     //access-control-allow-credentials:true
     optionSuccessStatus:200
